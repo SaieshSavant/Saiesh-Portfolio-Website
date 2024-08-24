@@ -1,0 +1,55 @@
+.projects {
+    padding: 60px 20px;
+    background-color: #121212; /* Dark background */
+    color: #fff;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+  }
+  
+  .projectContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Space between each card */
+  }
+  
+  .project {
+    background-color: #1e1e1e; /* Slightly lighter background for cards */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    max-width: 800px; /* Adjust width to fit the layout */
+    margin: 0 auto; /* Center the card horizontally */
+  }
+  
+  .project h3 {
+    font-size: 1.8rem; /* Larger font size for project titles */
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .project p {
+    font-size: 1.1rem; /* Slightly smaller font size for descriptions */
+    line-height: 1.6; /* Improve readability */
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .project {
+      padding: 15px;
+    }
+  
+    .project h3 {
+      font-size: 1.6rem;
+    }
+  
+    .project p {
+      font-size: 1rem;
+    }
+  }
+  

@@ -1,0 +1,72 @@
+/* styles/Hero.module.css */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #121212;
+  min-height: 80vh;
+}
+
+.content {
+  max-width: 600px;
+  margin-left: 50px;
+}
+
+.title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #f39c12;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color:  #6ec00a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #d35400;
+  transform: translateY(-5px);
+}
+
+.socialLinks {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.avatar img {
+  border-radius: 50%;
+  max-width: 500px;
+  margin-right: 350px;
+}
+
+
+.socialLinks {
+  display: flex;
+  gap: 15px;
+}
+
+.socialLinks a {
+  color:  #8cff00;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.socialLinks a:hover {
+  color: #8cff00; 
+  transform: translateY(-5px);
+}

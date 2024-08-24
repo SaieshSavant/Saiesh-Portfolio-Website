@@ -1,0 +1,31 @@
+/* styles/Navbar.module.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #121212;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navLinks li a {
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .navLinks li a:hover {
+    color: #88d80f;
+     transform: translateY(-5px);
+  }
+  
